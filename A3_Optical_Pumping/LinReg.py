@@ -36,7 +36,8 @@ class LinReg:
     #             label=f'slope: {popt[0]:0.3e} \nintercept: {popt[1]:0.3e} ')
         
 
-    def plot(self, ax, origin=True):
+    def plot(self, origin=True):
+        fig, ax = plt.subplots(1,1,figsize=(8,6))
         ax.set_title(self.title)
 
         ax.set_xlabel(rf'{self.header[0]} ({self.unit[0]})')
@@ -46,4 +47,5 @@ class LinReg:
         if origin:
             ax.set_xlim(0)
             ax.set_ylim(0)
-        ax.plot(self.xs_fit, self.ys_fit, color = 'r', linestyle='-.')
+        ax.plot(self.xs_fit, self.ys_fit, color = 'r', linestyle='-.',label=f'slope: {self.slope:0.3e} \nintercept: {self.intercept:0.3e} ')
+        plt.legend()
