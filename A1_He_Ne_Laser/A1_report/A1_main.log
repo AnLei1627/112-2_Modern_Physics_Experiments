@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.13)  13 MAY 2024 01:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.13)  26 MAY 2024 18:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,11 +897,11 @@ No file A1_main.bbl.
 
 ] (./A1_main.aux) ) 
 Here is how much of TeX's memory you used:
- 24032 strings out of 476919
- 549497 string characters out of 5821839
- 893515 words of memory out of 5000000
- 43594 multiletter control sequences out of 15000+600000
- 410022 words of font info for 84 fonts, out of 8000000 for 9000
+ 24067 strings out of 476919
+ 551469 string characters out of 5821839
+ 896516 words of memory out of 5000000
+ 43625 multiletter control sequences out of 15000+600000
+ 410054 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,6n,103p,521b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 
